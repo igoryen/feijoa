@@ -178,6 +178,13 @@
     $x = "Designed and implemented a database-driven web application that uses Apache, MySQL and PHP to store and search for winged phrases in multiple languages";
     print "<li>" . $x . "</li>";
   }
+  // for SyncBASE 141005
+  function software_developer2(){
+    $adj = "Advancing ";
+    $skill = "software developer: ";
+    $expl = "enjoy being active in all phases of the systems development life cycle as demonstrated in the development of the college group project";
+    print "<li>"."<b>" . $adj . $skill . "</b>" .  $expl."</li>";
+  }
 
   //http://www.inc.com/paul-schoemaker/6-habits-of-strategic-thinkers.html
   function strategist(){

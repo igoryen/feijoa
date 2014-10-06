@@ -19,8 +19,11 @@
     learner();
     // translator();
     -----------------------------*/
-    /*---------------------------
+    
+    //==============================
+
     // SyncBASE
+    software_developer2();
     programmer(); //
     // manager();
     // organizer();
@@ -35,14 +38,15 @@
     learner();
     communicator(); 
     // translator();
-    -------------------------------*/
+    
+    //=================================
     
     // PALOMINO - 141003
-    seneca_student();
-    software_developer();
-    web_designer();
-    analyst2();
-    communicator2();
+    // seneca_student();
+    // software_developer();
+    // web_designer();
+    // analyst2();
+    // communicator2();
     // programmer();
     // manager();
     // organizer();
