@@ -23,7 +23,7 @@ include("../string_lib/resume_stringlib.php");
         include ("./education/education.inc");
         // include ("./other/achievements.inc");
         // include ("./other/volunteer.inc");
-        //include ("./other/interests.inc");
+        include ("./other/interests.inc");
 ?>
 
     </div>
