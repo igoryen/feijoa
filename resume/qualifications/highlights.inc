@@ -2,6 +2,7 @@
 <div class="highlights">
   <ul>
     <?php
+    /*
     // IKEA - Kitchen Planning Sales
     customer_service();
     manager();
@@ -29,7 +30,7 @@
     // editor();
     
     // translator();
-
+    */
     /*---------------------------------------------
     // CANTIRE IT Infrastructure Leadership Program
     manager();
@@ -47,24 +48,28 @@
     // translator();
     -----------------------------*/
     
-    /*
+    
     // SyncBASE
-    software_developer2();
-    programmer(); //
+    software_developer3();
+    programmer2();
     // manager();
     // organizer();
-    analyst();
+    analyst3();
+    cs_dev();
+    mysql_savvy();
+    communicator2();
+
     // strategist();
        
     // problem_solver();
-    team_player(); //
+    // team_player(); //
     // listener();
     // multicultural();
     // editor();
-    learner();
-    communicator(); 
+    // learner();
+     
     // translator();
-    */
+    
     
     // PALOMINO - 141003
     // seneca_student();
