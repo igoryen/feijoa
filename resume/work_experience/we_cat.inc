@@ -1,12 +1,12 @@
-<table>
-	<tr class="occ_name_time">
-	  <td class="occ_name"><?php cat_pos_name(); ?></td>
-	  <td class="occ_time"><?php cat_time(); ?></td>
-	</tr>
-	<tr>
-		<td class="occ_place"><?php cat_name(); ?></td>
-	</tr>
-</table>
+<div class="table">
+  <div class="occ_name_time">
+    <div class="occ_name"><?php cat_pos_name(); ?></div>
+    <div class="occ_time"><?php cat_time(); ?></div>
+  </div>
+</div>
+<div>
+  <div class="occ_place"><?php cat_name(); ?></div>
+</div>
 
 
 <?php

@@ -60,12 +60,12 @@ body{
 .occ_name{
   /*border: ridge 10px chartreuse;*/
   font-weight: bold;
-  /*display: table-cell;*/
+  display: table-cell;
   width: 50%;
 }
 .occ_time{
   /*border: ridge 10px red;*/
-  /*display: table-cell;*/
+  display: table-cell;
   font-style: italic;
   color: gray;
   text-align: right;
@@ -118,4 +118,10 @@ ul {
 /*ul + div { margin-top: 3px; }*/
 table{
   margin-top: 5px;
+}
+.table{
+  /*border: ridge 10px chartreuse;*/
+  display: block;
+  margin: 0;
+
 }
