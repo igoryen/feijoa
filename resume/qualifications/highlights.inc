@@ -3,6 +3,26 @@
   <ul>
     <?php
 
+    // no frills
+    team_player();
+    manager();
+    communicator();
+    multicultural(); 
+    learner();
+    hard_worker();
+    // programmer();
+    // organizer();
+    // analyst();
+    // strategist();
+    
+    // problem_solver();
+    
+    // listener();
+    // 
+    // editor();
+    
+    // translator();
+
     /*---------------------------------------------
     // CANTIRE IT Infrastructure Leadership Program
     manager();
@@ -20,8 +40,7 @@
     // translator();
     -----------------------------*/
     
-    //==============================
-
+    /*
     // SyncBASE
     software_developer2();
     programmer(); //
@@ -38,8 +57,7 @@
     learner();
     communicator(); 
     // translator();
-    
-    //=================================
+    */
     
     // PALOMINO - 141003
     // seneca_student();

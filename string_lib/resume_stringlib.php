@@ -35,13 +35,14 @@
 // OBJECTIVE STATEMENT
 //==========================================================================
   function objective(){
+     $x = "GOAL: Richard's No Frills Store Team Member";
     // $x = "GOAL: Participation in the IT Infrastructure Leadership Program";
     // $x = "OBJECTIVE: Software Developer";
     // $x = "Objective: to obtain a retail position";
     // $x = "CAREER GOAL: WEB DEVELOPER";
     // $x = "OBJECTIVE: CANADIAN TIRE STORE TEAM MEMBER";
     // $x = "OBJECTIVE: Entry-Level Business Consultant/ IT Specialist"; // IBM - Nova Scotia
-    $x = "OBJECTIVE: Web Developer/Software Engineer";
+    // $x = "OBJECTIVE: Web Developer/Software Engineer";
     print $x;
   }
 
@@ -92,12 +93,12 @@
   }
 
   // !!! a quality, not a skill
-  // function hard_worker(){
-  //   $adj = "Energetic ";
-  //   $skill= "worker: ";
-  //   $expl = "tenacious, self-motivated, success-oriented, ethical and conscientious as demonstrated by putting in 120% in all previous positions";
-  //   print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
-  // }
+  function hard_worker(){
+    $adj = "Energetic ";
+    $skill= "worker: ";
+    $expl = "tenacious, self-motivated, success-oriented, ethical and conscientious as demonstrated by putting in 120% in all previous positions";
+    print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
+  }
 
   function learner(){
     $adj = "Devoted ";
@@ -423,7 +424,7 @@
   // education: Seneca projects
 
     function phrase_watch(){
-      $x = "Developed PhraseWatch - an online application using Apache, MySQL, PHP and jQuery/HTML5 for storing winged phrases in several languages.";
+      $x = "Developed PhraseWatch - an online application using Apache, MySQL, PHP and jQuery/HTML5 for storing winged phrases in several languages";
       print "<li>" . $x . "</li>";
     }
     function asp_net(){
