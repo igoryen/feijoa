@@ -35,7 +35,8 @@
 // OBJECTIVE STATEMENT
 //==========================================================================
   function objective(){
-     $x = "GOAL: Richard's No Frills Store Team Member";
+    $x = "GOAL: Kitchen Planning Sales";
+     // $x = "GOAL: Richard's No Frills Store Team Member";
     // $x = "GOAL: Participation in the IT Infrastructure Leadership Program";
     // $x = "OBJECTIVE: Software Developer";
     // $x = "Objective: to obtain a retail position";
@@ -85,6 +86,14 @@
     print "<li>" . $x. "</li>";
   }
   
+  // IKEA kitchen planning sales - 141005
+  function customer_service(){
+    $adj = "Thoughtful ";
+    $skill= "in customer service: ";
+    $expl = "experienced in hospitality industry, oriented at the highest customer satisfaction, proactive and courteous toward customers";
+    print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
+  }
+
   function editor(){
     $adj = "Good ";
     $skill= "editor: ";
@@ -141,6 +150,7 @@
     $expl = "creative, tenacious, flexible, and altruistic as demonstrated by having effectively organized, overseen, trained and coordinated six teams of 5 individuals each";
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
+
   function problem_solver(){
     $adj = "Excellent ";
     $skill= "problem solver: ";
@@ -208,6 +218,14 @@
   //   print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   // }
   
+  function teacher(){
+    $adj = "Gifted ";
+    $skill= "teacher and coach: ";
+    $expl = "accomodating to learning every student's learning style, patient and able to explain complex ideas in simple terms";
+    $title = "hello!";
+    print "<li title=". $title. ">" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
+  }
+
   // http://careeradvancementblog.com/positive-relationships-team-members
   function team_player(){
     $adj = "Reliable ";

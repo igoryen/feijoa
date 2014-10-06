@@ -1,16 +1,16 @@
 <?php
 function area(){
-  print "technology and work with people";
+  print "customer service and work with people";
 }
 function contact_info(){
   print "2980 Don Mills Rd, apt 102, North York, ON, M2J 3B9 &bull; 647-703-6200 &bull; igor.entaltsev@gmail.com";
 }
 function company_name(){
-  $x = "Canadian Tire";
+  $x = "IKEA";
   print $x;
 }
 function hir_mgr(){
-  $x = "Hiring Manager<br>Canadian Tire<br>1019 Sheppard Ave. East<br>Toronto, ON M2K 1C2";
+  $x = "Hiring Manager<br>IKEA<br>North York";
   print $x;
 }
 function hir_mgr_name(){
@@ -26,12 +26,12 @@ function my_name(){
   print $my_name;
 }
 function position(){
-  $x = "joining your Canadian Tire store team at 1019 Sheppard Ave. East";
+  $x = "Kitchen Planning Sales position";
   print $x;
 }
 function posting_place(){
   //$x = "Seneca coop website";
-  $x = "the Canadian Tire website";
+  $x = "the IKEA website";
   print $x;
 }
 function relevant_skills(){
