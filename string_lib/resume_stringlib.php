@@ -35,13 +35,13 @@
 // OBJECTIVE STATEMENT
 //==========================================================================
   function objective(){
-    $x = "GOAL: Participation in the IT Infrastructure Leadership Program";
-    //$x = "OBJECTIVE: Software Developer";
+    // $x = "GOAL: Participation in the IT Infrastructure Leadership Program";
+    // $x = "OBJECTIVE: Software Developer";
     // $x = "Objective: to obtain a retail position";
     // $x = "CAREER GOAL: WEB DEVELOPER";
     // $x = "OBJECTIVE: CANADIAN TIRE STORE TEAM MEMBER";
     // $x = "OBJECTIVE: Entry-Level Business Consultant/ IT Specialist"; // IBM - Nova Scotia
-    // $x = "OBJECTIVE: Web Developer/Software Engineer";
+    $x = "OBJECTIVE: Web Developer/Software Engineer";
     print $x;
   }
 
@@ -51,6 +51,15 @@
   /*
   http://www.businessbee.com/resources/sales/5-traits-good-data-analyst/
   */
+
+
+  // • 
+  // • 
+  // • ..
+  // • Fascinated with complex systems analysis as demonstrated by the knowledge of the grammars of more than a dozen languages
+  // • Clear and concise speaker; attentive listener as demonstrated by having effectively managed numerous teams
+
+
   function analyst(){
     $adj = "Detail-oriented ";
     $skill= "analyst: ";
@@ -58,11 +67,21 @@
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
+  function analyst2(){
+    $x = "Fascinated with complex systems analysis as demonstrated by the knowledge of the grammars of more than a dozen languages";
+    print "<li>" . $x . "</li>";
+  }
+
   function communicator(){
     $adj = "Clear ";
     $skill= "communicator: ";
     $expl = "clear and concise speaker, always representing facts, attentive listener as demonstrated by having effectively managed numerous teams";
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
+  }
+
+  function communicator2(){
+    $x = "Clear and concise speaker, attentive listener as demonstrated by having effectively managed numerous teams";
+    print "<li>" . $x. "</li>";
   }
   
   function editor(){
@@ -94,6 +113,7 @@
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
 
   }
+
   function manager(){
     $adj = "Experienced ";
     $skill= "manager and organizer: ";
@@ -147,6 +167,18 @@
     
     print "<li title=\" $title\">" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
+
+  // used for Palomino 141005
+  function seneca_student(){
+    $x = "Currently enrolled in the Computer Programming and Analysis Co-op Diploma; expected completion December 2014";
+    print "<li>" . $x . "</li>";
+  }
+  // used for Palomino 141005
+  function software_developer(){
+    $x = "Designed and implemented a database-driven web application that uses Apache, MySQL and PHP to store and search for winged phrases in multiple languages";
+    print "<li>" . $x . "</li>";
+  }
+
   //http://www.inc.com/paul-schoemaker/6-habits-of-strategic-thinkers.html
   function strategist(){
     $adj = "Advancing ";
@@ -184,6 +216,12 @@
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
+  // for Palomino 141005
+  function web_designer(){
+    $x = "Strong knowledge using jQuery and HTML5 to create interactive web pages for personal and college projects";
+    print "<li>" . $x . "</li>";
+  }
+  
   //=== CUSTOMIZED AGGREGATES =======================================
 
   function dollarama(){
@@ -378,7 +416,7 @@
   // education: Seneca projects
 
     function phrase_watch(){
-      $x = "Developed PhraseWatch - an online application using Apache, MySQL and PHP for storing winged phrases in several languages.";
+      $x = "Developed PhraseWatch - an online application using Apache, MySQL, PHP and jQuery/HTML5 for storing winged phrases in several languages.";
       print "<li>" . $x . "</li>";
     }
     function asp_net(){

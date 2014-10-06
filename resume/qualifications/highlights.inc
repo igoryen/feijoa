@@ -1,7 +1,9 @@
-<div  class="bar">HIGHLIGHTS OF SKILLS AND QUALIFICATIONS</div>
+<div  class="bar">HIGHLIGHTS OF QUALIFICATIONS</div>
 <div class="highlights">
   <ul>
     <?php
+
+    /*---------------------------------------------
     // CANTIRE IT Infrastructure Leadership Program
     manager();
     programmer();
@@ -16,6 +18,7 @@
     // editor();
     learner();
     // translator();
+    -----------------------------*/
     /*---------------------------
     // SyncBASE
     programmer(); //
@@ -33,22 +36,27 @@
     communicator(); 
     // translator();
     -------------------------------*/
-    /*---------------------------
+    
     // PALOMINO - 141003
-    programmer();
+    seneca_student();
+    software_developer();
+    web_designer();
+    analyst2();
+    communicator2();
+    // programmer();
     // manager();
     // organizer();
-    analyst();
-    strategist();
-    communicator();    
+    // analyst();
+    // strategist();
+    // communicator();    
     // problem_solver();
-    team_player();
+    // team_player();
     // listener();
-    multicultural();
+    // multicultural();
     // editor();
     // learner();
     // translator();
-    -------------------*/
+    
     /*------------------
     // 141003fr IBM
     programmer();

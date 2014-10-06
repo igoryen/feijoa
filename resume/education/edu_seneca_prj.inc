@@ -3,10 +3,10 @@
   <ul>
 
 <?php   
-    asp_net(); 
+    //asp_net(); 
     phrase_watch();
-    android();
-    // surplus();
+    //android();
+    surplus();
     // mama_pizza();
     // sencon();
 ?>
