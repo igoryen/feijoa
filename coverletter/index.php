@@ -23,13 +23,13 @@ include("../string_lib/coverletter_stringlib.php");
       </div>
       <br>
       <div>
-        I am writing to express my keen interest in <?php position(); ?> 
+        I am writing to express my keen interest in <?php position(); ?>
         as mentioned on <?php posting_place(); ?>. 
         <!-- I am writing to express my keen interest in the <?php position(); ?> position you have posted on <?php posting_place(); ?>. --> 
 
         I am confident that my education, experience, and qualifications make me a strong candidate
-<!--         for this position.   -->
-				to be a team member of your store.
+        for this position.  
+				<!-- to be a team member of your store. -->
 				
         I am a highly-motivated, hard-working, energetic individual 
 

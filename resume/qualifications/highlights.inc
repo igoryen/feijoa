@@ -2,22 +2,29 @@
 <div class="highlights">
   <ul>
     <?php
-
-    // no frills
-    team_player();
+    // IKEA - Kitchen Planning Sales
+    customer_service();
     manager();
+    programmer();
+    analyst();
     communicator();
-    multicultural(); 
+    teacher();
     learner();
-    hard_worker();
-    // programmer();
+    // listener();
+    // multicultural(); 
+    // no frills
+    // team_player();
+
+    
+    // hard_worker();
+    // 
     // organizer();
-    // analyst();
+    // 
     // strategist();
     
     // problem_solver();
     
-    // listener();
+    // 
     // 
     // editor();
     

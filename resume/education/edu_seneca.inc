@@ -9,6 +9,6 @@
 </div>
 
 <?php
-  include ("edu_seneca_prj.inc");
+  // include ("edu_seneca_prj.inc");
 ?>
   
