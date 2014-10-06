@@ -24,26 +24,26 @@
       </div> -->
 
   <div class="bar">TECHNICAL SKILLS</div>
-      <div class="table">
+      <table>
 
-          <div>
-            <div class="tr_title">Operating Systems</div>
-            <div class="tr_value"><?php print print_array($ar_OS); ?></div>
+          <tr>
+            <td class="tr_title">Operating Systems</td>
+            <td class="tr_value"><?php print print_array($ar_OS); ?></td>
+          </tr>
+
+          <tr>
+            <td class="tr_title">Programming</td>
+            <td class="tr_value"><?php print print_array($ar_prog); ?></td>
           </div>
 
-          <div>
-            <div class="tr_title">Programming</div>
-            <div class="tr_value"><?php print print_array($ar_prog); ?></div>
+          <tr>
+            <td class="tr_title">Database</td>
+            <td class="tr_value"><?php print print_array($ar_db); ?></td>
           </div>
 
-          <div>
-            <div class="tr_title">Database</div>
-            <div class="tr_value"><?php print print_array($ar_db); ?></div>
-          </div>
-
-          <div>
-            <div class="tr_title">Tools</div>
-            <div class="tr_value"><?php print print_array($ar_tools); ?></div>
+          <tr>
+            <td class="tr_title">Tools</td>
+            <td class="tr_value"><?php print print_array($ar_tools); ?></td>
           </div>
           
-      </div>
+      </table>
