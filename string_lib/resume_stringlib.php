@@ -35,10 +35,10 @@
 // OBJECTIVE STATEMENT
 //==========================================================================
   function objective(){
-    $x = "GOAL: Kitchen Planning Sales";
+    // $x = "GOAL: Kitchen Planning Sales";
      // $x = "GOAL: Richard's No Frills Store Team Member";
     // $x = "GOAL: Participation in the IT Infrastructure Leadership Program";
-    // $x = "OBJECTIVE: Software Developer";
+    $x = "OBJECTIVE: Software Developer";
     // $x = "Objective: to obtain a retail position";
     // $x = "CAREER GOAL: WEB DEVELOPER";
     // $x = "OBJECTIVE: CANADIAN TIRE STORE TEAM MEMBER";
@@ -69,9 +69,16 @@
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
+
+
   function analyst2(){
     $x = "Fascinated with complex systems analysis as demonstrated by the knowledge of the grammars of more than a dozen languages";
     print "<li>" . $x . "</li>";
+  }
+
+  function analyst3(){
+    $x = "Curious, research-loving, fascinated with complex systems analysis as demonstrated by the knowledge of the grammars of more than a dozen languages";
+    print "<li>" . $x. "</li>";
   }
 
   function communicator(){
@@ -82,10 +89,16 @@
   }
 
   function communicator2(){
-    $x = "Clear and concise speaker, attentive listener as demonstrated by having effectively managed numerous teams";
+    $x = "Clear and concise speaker, always representing facts, attentive listener as demonstrated by having effectively managed numerous teams";
     print "<li>" . $x. "</li>";
   }
   
+  function cs_dev(){
+    $x = "Developed a database-driven web application in C# using ASP.NET MVC4 in Visual Studio that kept records of a college's faculty and students and notified them of classes' cancellations";
+    print "<li>" . $x. "</li>";
+  }
+  
+
   // IKEA kitchen planning sales - 141005
   function customer_service(){
     $adj = "Thoughtful ";
@@ -144,6 +157,11 @@
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
+  function mysql_savvy(){
+    $x = "Designed and implemented a database-driven web application that used MySQL, Apache and PHP to store and search for winged phrases in multiple languages";
+    print "<li>" . $x . "</li>";
+  }
+
   function organizer(){
     $adj = "Excellent ";
     $skill= "organizer: ";
@@ -178,6 +196,21 @@
     
     print "<li title=\" $title\">" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
+  // for SyncBASE 141006
+  function programmer2(){
+    $x = "Energetic, " .
+          "result-oriented, " .
+          "experienced in object oriented development and design, " .
+          //"comfortable with algorithmic thinking, " .
+          //"able to structure code well, " .
+          "passionate about web development and data processing";
+    $title = "Being comfortable with algorithmic thinking means 
+    * having good intuition for how to store and manipulate your data, 
+    * being able to think both iteratively and recursively, and 
+    * being able to reason about the performance characteristics of the code you write.";
+    
+    print "<li title=\" $title\">" . $x . "</li>";
+  }
 
   // used for Palomino 141005
   function seneca_student(){
@@ -195,6 +228,11 @@
     $skill = "software developer: ";
     $expl = "enjoy being active in all phases of the systems development life cycle as demonstrated in the development of the college group project";
     print "<li>"."<b>" . $adj . $skill . "</b>" .  $expl."</li>";
+  }
+  // for SyncBASE 141006
+  function software_developer3(){
+    $x = "Enjoy being active in all phases of the systems development life cycle as demonstrated in the development of the college group project";
+    print "<li>".$x."</li>";
   }
 
   //http://www.inc.com/paul-schoemaker/6-habits-of-strategic-thinkers.html
@@ -446,7 +484,7 @@
       print "<li>" . $x . "</li>";
     }
     function asp_net(){
-      $x = "Developed a database-driven web application using ASP.NET MVC4 in Visual Studio that keeps records of a college's faculty and students and notifies them of classes' cancellations";
+      $x = "Developed a database-driven web application in C# using ASP.NET MVC4 in Visual Studio that kept records of a college's faculty and students and notified them of classes' cancellations";
       print "<li>" . $x . "</li>";
     }
     function android(){
