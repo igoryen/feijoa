@@ -2,6 +2,28 @@
 <div class="highlights">
   <ul>
     <?php
+    software_development();
+    programming();
+    analysis();
+    managing();
+    /*
+    front_end_development();
+    server_side_scripting();
+    cs_development();
+    data_bases();
+    project_lead();
+    */
+
+    /*
+    // Randstad (141017)
+    programming();
+    software_development();
+    cs_development();
+    data_bases();
+    unit_testing();
+    communication();
+    documentation();
+    */
     /*
     // IKEA - Kitchen Planning Sales
     customer_service();
@@ -47,17 +69,16 @@
     learner();
     // translator();
     -----------------------------*/
-    
-    
+    /*
     // SyncBASE
-    software_developer3();
-    programmer2();
+    software_development();
+    //programmer2();
     // manager();
     // organizer();
-    analyst3();
-    cs_dev();
+    analysis();
+    cs_development();
     mysql_savvy();
-    communicator2();
+    communication();
 
     // strategist();
        
@@ -69,7 +90,7 @@
     // learner();
      
     // translator();
-    
+    */
     
     // PALOMINO - 141003
     // seneca_student();

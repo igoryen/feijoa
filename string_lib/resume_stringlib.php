@@ -35,14 +35,19 @@
 // OBJECTIVE STATEMENT
 //==========================================================================
   function objective(){
-    // $x = "GOAL: Kitchen Planning Sales";
-     // $x = "GOAL: Richard's No Frills Store Team Member";
-    // $x = "GOAL: Participation in the IT Infrastructure Leadership Program";
-    $x = "OBJECTIVE: Software Developer";
-    // $x = "Objective: to obtain a retail position";
+    $x = "Career goal: software developer";
+    // $x = "GOAL: .NET DEVELOPER";
     // $x = "CAREER GOAL: WEB DEVELOPER";
+    // $x = "GOAL: .Net Developer (Toronto) (#279941)";
+    // $x = "GOAL: Kitchen Planning Sales";
+    // $x = "GOAL: Participation in the IT Infrastructure Leadership Program";
+    // $x = "GOAL: Richard's No Frills Store Team Member";
+    // $x = "GOAL: Web Application Developer";
+    // $x = "GOAL: Web Application Developer";
     // $x = "OBJECTIVE: CANADIAN TIRE STORE TEAM MEMBER";
     // $x = "OBJECTIVE: Entry-Level Business Consultant/ IT Specialist"; // IBM - Nova Scotia
+    // $x = "OBJECTIVE: Software Developer";
+    // $x = "Objective: to obtain a retail position";
     // $x = "OBJECTIVE: Web Developer/Software Engineer";
     print $x;
   }
@@ -54,46 +59,42 @@
   http://www.businessbee.com/resources/sales/5-traits-good-data-analyst/
   */
 
-
-  // • 
-  // • 
-  // • ..
-  // • Fascinated with complex systems analysis as demonstrated by the knowledge of the grammars of more than a dozen languages
-  // • Clear and concise speaker; attentive listener as demonstrated by having effectively managed numerous teams
-
-
-  function analyst(){
+  function analysis(){
+    // Palomino (141014tu)
+    // $x = "Curious, research-loving, fascinated with complex systems analysis as demonstrated by the knowledge of the grammars of more than a dozen languages";
+    // print "<li>" . $x . "</li>";
+    //---------------------------------------------
+    /*
+    $x = "Fascinated with complex systems analysis as demonstrated by the knowledge of the grammars of more than a dozen languages";
+    print "<li>" . $x . "</li>";
+    */
+    //--- generic ---------------------------------
     $adj = "Detail-oriented ";
     $skill= "analyst: ";
-    $expl = "curious, research-loving, fascinated with complex systems analysis as demonstrated by the knowledge of the grammars of more than a dozen languages";
+    $expl = "curious, research-loving, fascinated with complex systems' analysis and optimization as demonstrated by the knowledge of the grammars of more than a dozen languages";
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
-
-
-  function analyst2(){
-    $x = "Fascinated with complex systems analysis as demonstrated by the knowledge of the grammars of more than a dozen languages";
-    print "<li>" . $x . "</li>";
-  }
-
-  function analyst3(){
-    $x = "Curious, research-loving, fascinated with complex systems analysis as demonstrated by the knowledge of the grammars of more than a dozen languages";
+  function communication(){
+    $x = "Clear and concise speaker, always representing facts, attentive listener as demonstrated by having effectively managed numerous teams";
     print "<li>" . $x. "</li>";
-  }
-
-  function communicator(){
+    //---------------------------------------------------
+    /*
     $adj = "Clear ";
     $skill= "communicator: ";
     $expl = "clear and concise speaker, always representing facts, attentive listener as demonstrated by having effectively managed numerous teams";
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
+    */
   }
 
-  function communicator2(){
-    $x = "Clear and concise speaker, always representing facts, attentive listener as demonstrated by having effectively managed numerous teams";
-    print "<li>" . $x. "</li>";
+
+  function computer_networking(){
+    $x = "Experience using various Internet protocols including TCP, UDP, FTP, gained from working on various projects at college";
+    print "<li>" . $x . "</li>";
   }
+
   
-  function cs_dev(){
+  function cs_development(){
     $x = "Developed a database-driven web application in C# using ASP.NET MVC4 in Visual Studio that kept records of a college's faculty and students and notified them of classes' cancellations";
     print "<li>" . $x. "</li>";
   }
@@ -107,29 +108,44 @@
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
-  function editor(){
+  function documentation(){
+    $x = "Strong advocate of producing proper documentation for any and all code; created user manuals for several projects both at previous positions and in college";
+    print "<li>" . $x. "</li>";
+  }
+
+  function data_bases(){
+    $x = "Strong knowledge of SQL as demonstrated in designing and implementing a large database-driven web application using MySQL, Apache and PHP";
+    print "<li>" . $x . "</li>";
+  }
+
+  function editing(){
     $adj = "Good ";
     $skill= "editor: ";
     $expl = "good writer and researcher, critical thinker: compiled and authored teaching materials for a wide range of readers";
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
+  function front_end_development(){
+    $x = "Developed multiple projects using HTML5, CSS, XML, JavaScript and jQuery geared to work properly in different web browsers";
+    print "<li>" . $x . "</li>";
+  }
+
   // !!! a quality, not a skill
-  function hard_worker(){
+  function hard_work(){
     $adj = "Energetic ";
     $skill= "worker: ";
     $expl = "tenacious, self-motivated, success-oriented, ethical and conscientious as demonstrated by putting in 120% in all previous positions";
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
-  function learner(){
+  function learning(){
     $adj = "Devoted ";
     $skill= "continuous learner: ";
     $expl = "tenacious, self-motivated, success-oriented, committed to constantly expanding the personal arsenal of skills through self-teaching and self-education";
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
-  function listener(){
+  function listening(){
     $adj = "Attentive ";
     $skill= "listener: ";
     $expl = "concentrating on another person's message, tactful, empathetic and objective as demonstrated by being successful in work with people in previous positions";
@@ -137,7 +153,10 @@
 
   }
 
-  function manager(){
+  function managing(){
+    // $skill = "Open and transparent, leading by example, able to multitask and prioritize, as demonstrated by supervising a staff of 40 people as well as having effectively organized, overseen, trained and coordinated 6 teams of 5 individuals each";
+    // print "<li>" . $skill . "</li>";
+    //------ generic --------------------------------------
     $adj = "Experienced ";
     $skill= "manager and organizer: ";
     $expl = "open and transparent, " .
@@ -148,6 +167,7 @@
             //"and altruistic, ".
             "as demonstrated by supervising a staff of 40 people as well as having effectively organized, overseen, trained and coordinated 6 teams of 5 individuals each";
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
+    //-----------------------------------------------------
   }
 
   function multicultural(){
@@ -157,47 +177,37 @@
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
-  function mysql_savvy(){
-    $x = "Designed and implemented a database-driven web application that used MySQL, Apache and PHP to store and search for winged phrases in multiple languages";
-    print "<li>" . $x . "</li>";
-  }
-
-  function organizer(){
+  function organizing(){
     $adj = "Excellent ";
     $skill= "organizer: ";
     $expl = "creative, tenacious, flexible, and altruistic as demonstrated by having effectively organized, overseen, trained and coordinated six teams of 5 individuals each";
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
-  function problem_solver(){
-    $adj = "Excellent ";
-    $skill= "problem solver: ";
-    $expl = "xxxx";
-    print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
+  function php_development(){
+    $x = "Designed and implemented a database-driven web application that used MySQL, Apache and PHP to store and search for winged phrases in multiple languages";
+    print "<li>" . $x . "</li>";
+  }
+
+  function problem_solving(){
+    $x = "Always quality-oriented, result-driven, and possess problem solving skills: have a \"can do\" attitude, able to re-define a problem, seek permanent solutions, ";
+    print "<li>" . $x. "</li>";
+  }
+
+  function project_lead(){
+    $x = "Served as a project lead in charge of a team of 3 people working on a major project (a database-driven web application) at college";
+    print "<li>" . $x. "</li>";
   }
 
   /*
   https://www.hackerschool.com/blog/27-fundamental-qualities-of-good-programmers
   http://www.cssp.com/CD0808b/CriticalStrategicThinkingSkills/
   */
-  function programmer(){
-    $adj = "Enthusiastic ";
-    $skill= "programmer: ";
-    $expl = "energetic, " .
-            "result-oriented, " .
-            "experienced in object oriented development and design, " .
-            //"comfortable with algorithmic thinking, " .
-            //"able to structure code well, " .
-            "passionate about web development and data processing";
-    $title = "Being comfortable with algorithmic thinking means 
-    * having good intuition for how to store and manipulate your data, 
-    * being able to think both iteratively and recursively, and 
-    * being able to reason about the performance characteristics of the code you write.";
-    
-    print "<li title=\" $title\">" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
-  }
-  // for SyncBASE 141006
-  function programmer2(){
+  function programming(){
+    // $x = "An intermediate level of coding, technical and time management skills developed through work on various projects during the 3-year program in college";
+    // print "<li>" . $x . "</li>";
+    /*
+    // for SyncBASE 141006
     $x = "Energetic, " .
           "result-oriented, " .
           "experienced in object oriented development and design, " .
@@ -205,11 +215,27 @@
           //"able to structure code well, " .
           "passionate about web development and data processing";
     $title = "Being comfortable with algorithmic thinking means 
+      * having good intuition for how to store and manipulate your data, 
+      * being able to think both iteratively and recursively, and 
+      * being able to reason about the performance characteristics of the code you write.";
+    
+    print "<li title=\" $title\">" . $x . "</li>";
+    */
+    // --------- generic ---------------------
+    $adj = "Enthusiastic ";
+    $skill= "programmer: ";
+    $expl = "energetic, " .
+            "result-oriented, " .
+            "experienced in object-oriented development and design, " .
+            "comfortable with algorithmic thinking, " .
+            "able to structure code well, " .
+            "passionate about web development and data processing";
+    $title = "Being comfortable with algorithmic thinking means 
     * having good intuition for how to store and manipulate your data, 
     * being able to think both iteratively and recursively, and 
     * being able to reason about the performance characteristics of the code you write.";
     
-    print "<li title=\" $title\">" . $x . "</li>";
+    print "<li title=\" $title\">" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";  
   }
 
   // used for Palomino 141005
@@ -217,26 +243,36 @@
     $x = "Currently enrolled in the Computer Programming and Analysis Co-op Diploma; expected completion December 2014";
     print "<li>" . $x . "</li>";
   }
-  // used for Palomino 141005
-  function software_developer(){
-    $x = "Designed and implemented a database-driven web application that uses Apache, MySQL and PHP to store and search for winged phrases in multiple languages";
+
+  function server_side_scripting(){
+    $x = "Developed server-side scripts in PHP to create a database-driven web application that uses Apache and MySQL database to store and search for winged phrases in multiple languages; as well worked on codebase written in server-side JavaScript on Node.js";
     print "<li>" . $x . "</li>";
   }
-  // for SyncBASE 141005
-  function software_developer2(){
+
+  // used for Palomino 141005
+  function software_development(){
+    //---generic-----------------------------------
     $adj = "Advancing ";
     $skill = "software developer: ";
-    $expl = "enjoy being active in all phases of the systems development life cycle as demonstrated in the development of the college group project";
+    $expl = "designed and implemented a number of database-driven web applications both independently and within a group";
     print "<li>"."<b>" . $adj . $skill . "</b>" .  $expl."</li>";
+    //---------------------------------------------
+    // // for SyncBASE 141006
+    // $x = "Enjoy being active in all phases of the systems development life cycle as demonstrated in the development of the college group project";
+    // print "<li>".$x."</li>";
+    //---------------------------------------------
+    //for SyncBASE 141005
+    // $x = "Designed and implemented a database-driven web application that uses Apache, MySQL and PHP to store and search for winged phrases in multiple languages";
+    // print "<li>" . $x . "</li>";
+    //---------------------------------------------
+    // $adj = "Advancing ";
+    // $skill = "software developer: ";
+    // $expl = "enjoy being active in all phases of the systems development life cycle as demonstrated in the development of the college group project";
+    // print "<li>"."<b>" . $adj . $skill . "</b>" .  $expl."</li>";
   }
-  // for SyncBASE 141006
-  function software_developer3(){
-    $x = "Enjoy being active in all phases of the systems development life cycle as demonstrated in the development of the college group project";
-    print "<li>".$x."</li>";
-  }
-
+  
   //http://www.inc.com/paul-schoemaker/6-habits-of-strategic-thinkers.html
-  function strategist(){
+  function strategic_thinking(){
     $adj = "Advancing ";
     $skill = "strategic thinker: ";
     $expl = "able to see the big picture, conceptualize complexity, think critically, synthesize information from many sources before making a decision as practiced in major life decisions";
@@ -256,7 +292,7 @@
   //   print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   // }
   
-  function teacher(){
+  function teaching(){
     $adj = "Gifted ";
     $skill= "teacher and coach: ";
     $expl = "accomodating to learning every student's learning style, patient and able to explain complex ideas in simple terms";
@@ -265,7 +301,7 @@
   }
 
   // http://careeradvancementblog.com/positive-relationships-team-members
-  function team_player(){
+  function team_playing(){
     $adj = "Reliable ";
     $skill= "team player: ";
     $expl = "genuinely committed, ethical, doing more than asked, adapting quickly as demonstrated by being part of a team in several previous positions";
@@ -273,15 +309,20 @@
     print "<li title=". $title. ">" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
-  function translator(){
+  function translating(){
     $adj = "Accurate ";
     $skill= "translator: ";
     $expl = "made quality language translations of numerous written and video works";
     print "<li>" . "<b>" . $adj . $skill . "</b>" .  $expl . "</li>";
   }
 
+  function unit_testing(){
+    $x = "Designed and performed unit testing on a big Mozilla project according to standards";
+    print "<li>" . $x . "</li>";
+  }
+
   // for Palomino 141005
-  function web_designer(){
+  function web_design(){
     $x = "Strong knowledge using jQuery and HTML5 to create interactive web pages for personal and college projects";
     print "<li>" . $x . "</li>";
   }
