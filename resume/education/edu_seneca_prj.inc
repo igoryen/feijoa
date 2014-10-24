@@ -2,11 +2,11 @@
 <div class="prj_list">
   <ul>
 
-<?php   
+<?php
+    phrase_watch();
     asp_net(); 
-    // phrase_watch();
-    //android();
-    //surplus();
+    android();
+    // surplus();
     // mama_pizza();
     // sencon();
 ?>

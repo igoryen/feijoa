@@ -18,7 +18,7 @@ include("../string_lib/resume_stringlib.php");
 <?php
         include ("./lines/objective.inc");
         include ("./qualifications/highlights.inc");
-        // include ("./technical_skills/tech_skills.inc");
+        include ("./technical_skills/tech_skills.inc");
         include ("./work_experience/work_experience.inc");
         include ("./education/education.inc");
         // include ("./other/achievements.inc");
