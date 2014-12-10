@@ -6,6 +6,7 @@
     programming();
     analysis();
     managing();
+    //communication();
     /*
     front_end_development();
     server_side_scripting();
