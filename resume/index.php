@@ -17,6 +17,7 @@ include("../string_lib/resume_stringlib.php");
       <hr>
 <?php
         include ("./lines/objective.inc");
+        include ("./projects/projects.inc");
         include ("./qualifications/highlights.inc");
         include ("./technical_skills/tech_skills.inc");
         include ("./work_experience/work_experience.inc");
