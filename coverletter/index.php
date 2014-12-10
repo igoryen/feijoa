@@ -1,6 +1,6 @@
 <?php
 
-include("../string_lib/coverletter_stringlib.php");
+include("../string_lib/coverletter_stringlib.inc");
 
 ?><html>
   <head>
