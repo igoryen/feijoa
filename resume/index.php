@@ -1,5 +1,5 @@
 <?php
-include("../string_lib/resume_stringlib.php");
+include("../string_lib/resume_stringlib.inc");
 ?><html>
   <head>
     <link rel="stylesheet" type="text/css" href="../style/rc.css">
