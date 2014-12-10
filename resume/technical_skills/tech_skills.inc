@@ -32,18 +32,69 @@
           </tr>
 
           <tr>
-            <td class="tr_title">Programming</td>
-            <td class="tr_value"><?php print print_array($ar_prog); ?></td>
-          </div>
+            <td class="tr_title">Languages</td>
+            <td class="tr_value"><?php print print_array($ar_langs); ?></td>
+          </tr>
 
           <tr>
-            <td class="tr_title">Database</td>
+            <td class="tr_title">Libraries</td>
+            <td class="tr_value"><?php print print_array($ar_libraries); ?></td>
+          </tr>
+
+          <tr>
+            <td class="tr_title">Databases</td>
             <td class="tr_value"><?php print print_array($ar_db); ?></td>
-          </div>
+          </tr>
+
+          <tr>
+            <td class="tr_title">Environments</td>
+            <td class="tr_value"><?php print print_array($ar_environments); ?></td>
+          </tr>
+
+
+          <tr>
+            <td class="tr_title">Software</td>
+            <td class="tr_value"><?php print print_array($ar_soft); ?></td>
+          </tr>
 
           <tr>
             <td class="tr_title">Tools</td>
             <td class="tr_value"><?php print print_array($ar_tools); ?></td>
-          </div>
+          </tr>
+
+          <tr>
+            <td class="tr_title">Data formats</td>
+            <td class="tr_value"><?php print print_array($ar_data); ?></td>
+          </tr>
+
+          <tr>
+            <td class="tr_title">Techniques</td>
+            <td class="tr_value"><?php print print_array($ar_techniques); ?></td>
+          </tr>
+
+          <tr>
+            <td class="tr_title">Frameworks</td>
+            <td class="tr_value"><?php print print_array($ar_frameworks); ?></td>
+          </tr>
+
+          <tr>
+            <td class="tr_title">Environments</td>
+            <td class="tr_value"><?php print print_array($ar_text_editors_ide); ?></td>
+          </tr>
+
+          <tr>
+            <td class="tr_title">Networking</td>
+            <td class="tr_value"><?php print print_array($ar_networking); ?></td>
+          </tr>
+
+          <tr>
+            <td class="tr_title">Platforms</td>
+            <td class="tr_value"><?php print print_array($ar_platforms); ?></td>
+          </tr>
+
+          <tr>
+            <td class="tr_title">Editors</td>
+            <td class="tr_value"><?php print print_array($ar_text_editors_ide); ?></td>
+          </tr>
           
       </table>

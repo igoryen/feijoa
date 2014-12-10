@@ -51,7 +51,53 @@
     // $x = "OBJECTIVE: Web Developer/Software Engineer";
     print $x;
   }
+//==========================================================================
+// PROJECTS
+//==========================================================================
+  function android_subaru(){
+    $x = "Database-driven Android application for drivers to keep track of gas purchases by gas station";
+    print "<li>" . $x. "</li>";
+  }
 
+  function cs_class_cancellations(){
+    $x = "Database-driven web application in C# using ASP.NET MVC4 in Visual Studio that keeps records of faculty and students and notifies them of classes' cancellations";
+    print "<li>" . $x. "</li>";
+  }
+
+  function db_drugstore(){
+    $x = "Physical and conceptual database design for a system according to a company's specification";
+    print "<li>" . $x. "</li>";
+  }
+
+  function cobol_seneca_construction(){
+    $x = "COBOL application that maintains construction projects";
+    print "<li>" . $x. "</li>";
+  }  
+
+  function JS_mamapizza(){
+    $x = "Graphic interface using JavaScript, HTML5 and CSS for an online store that sells pizza";
+    print "<li>" . $x. "</li>";
+  }
+
+  function JS_togetherjs(){
+    $x = "Assisted in coding to provide localization of a project by Mozilla that enables remote collaboration on the same project online";
+    print "<li>" . $x. "</li>";
+  }
+
+  function JS_webmaker(){
+    $x = "Assisted in coding to provide localization of a Node.js project by Mozilla that teaches how to create content for the web";
+    print "<li>" . $x. "</li>";
+  }
+
+  function php_surplus(){
+    $x = "Website using Linux, Apache, MySQL, PHP for an online store that sells army surplus goods";
+    print "<li>" . $x. "</li>";
+  }
+
+  function php_tarboz(){
+    $x = "Large web application using Apache, MySQL, PHP that is an online database for storing international winged phrases";
+    print "<li>" . $x. "</li>";
+  }
 //==========================================================================
 // HIGHLIGHTED SKILLS
 //==========================================================================
@@ -399,61 +445,104 @@
     return implode(", ", $array);  
   }
 
-  $ar_OS = array(
-    "Windows 8/7/XP", 
-    "OS X", 
-    "Android",
-    "UNIX/Linux", 
-    "IBM AS/400"
-    );
-
-  $ar_prog = array(
-    "JavaScript", 
-    "HTML5", 
-    "CSS", 
-    "JQuery", 
-    "Ajax", 
-    "Java", 
-    "C#", 
-    "Node.js", 
-    "ASP.NET MVC4", 
-    "PHP", 
-    "C", 
-    "C++", 
-    "COBOL", 
-    "unit testing", 
-    "website hosting"
-    );
-
+  $ar_data = array(
+    "JASON",
+    "Markdown",
+    "Regular Expressions"
+  );
+    
   $ar_db = array(
-    "Oracle Database",
+    "Oracle RDBMS", 
     "Oracle's SQL*Plus", 
-    //"SQL", 
-    "MySQL",    
-    "Data Warehousing and Administration", 
-    "RPG", 
+    "MySQL",
+    "Data Warehousing and Administration",    
+    "SQLite"
+  );
+
+  $ar_environments = array(
+    "Node.js",
+    "Rational Rose XDE"
+  );
+
+  $ar_frameworks = array(
+    "ASP.NET MVC4",
+    "Mocha"  
+  );
+
+  $ar_langs = array(
+    "C",
+    "C#",
+    "C++",
+    "COBOL",
+    "CSS",
     "DB2", 
-    );
+    "HTML5",
+    "Java",
+    "JavaScript",
+    "RPG",
+    "XML",
+    "WSDL"
+  );
+
+  $ar_libraries = array(
+    "jQuery",
+    "Processing.js"
+  );
+
+  $ar_OS = array(
+    "Android",
+    "Fedora",
+    "IBM AS/400",
+    "Linux",
+    "MS Windows 8/7/XP", 
+    "OS X", 
+    "UNIX/Linux", 
+  );
+
+  $ar_platforms = array(
+    "Transifex"
+  );
+
+  $ar_soft = array(
+    "Apache HTTP server", 
+    "Apache Tomcat", 
+    "GlassFish", 
+    "Microsoft Windows Server 2008",
+    "MS Windows Server 2008"
+  );
+
+  $ar_techniques = array(
+    "Ajax",
+    "unit testing"
+  ); 
 
   $ar_tools = array(
-    "Git", 
-    "Eclipse", 
-    // "NetBeans", 
-    // "Microsoft Visual Studio",
-    "MS Visual Studio", 
-    // "Microsoft Windows Server 2008",
-    "MS Windows Server 2008", 
-    "Apache HTTP server", 
-    // "Apache Tomcat", 
-    // "GlassFish", 
-    // "Transifex", 
-    "Rational Rose modeling tool (with UML)", 
-    "IBM Rational Developer for Power Systems Software (RDP)", 
-    "Oracle RDBMS", 
-    "MS Office", 
-    "Libre Office"
-    );
+    "jshint",
+    "Git",
+    "GruntJS", 
+  );
 
+  $ar_text_editors_ide = array(
+    "Eclipse",
+    "Komodo Edit",
+    "Libre Office",
+    "MS Access",
+    "MS Excel",
+    "MS Office",
+    "MS Word",
+    "MySQL Workbench",
+    "NetBeans",
+    "Notepad++",
+    "Rational Rose modeling tool (with UML)",
+    "Sublime Text",
+    "Visual Studio"
+  );
+
+  $ar_networking = array(
+    "SOAP",
+    "HTTP",
+    "FTP"
+  );
 //==========================================================================
 // EDUCATION
 //==========================================================================
