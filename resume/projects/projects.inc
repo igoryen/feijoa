@@ -42,7 +42,7 @@
   }
 
   function JS_webmaker(){
-    $x = "Localization solution for a Mozilla project that is a squite of "
+    $x = "Localization solution for a Mozilla project that is a suite of "
        . "tools designed to teach creation of content for the web";
     print "<li>" . $x. "</li>";
   }
