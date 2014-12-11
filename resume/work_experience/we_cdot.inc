@@ -1,3 +1,23 @@
+<?php
+
+function cdot_pos_name(){
+  $x = "Research Assistant - Web Developer";
+  print $x;
+}
+
+function cdot_name(){
+  $x = "Seneca's Centre for Development of Open Technology "
+          . "(Co-op position)";
+  print $x;
+}
+
+function cdot_time(){
+  $x = "May 2013 - Dec 2013";
+  print $x;
+} 
+
+?>
+
 <div class="table">
   <div class="occ_name_time">
     <div class="occ_name"><?php cdot_pos_name(); ?></div>

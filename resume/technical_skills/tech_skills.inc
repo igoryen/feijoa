@@ -1,3 +1,107 @@
+<?php
+  function print_array($array){
+    return implode(", ", $array);  
+  }
+
+  $ar_data = array(
+    "JASON",
+    "Markdown",
+    "Regular Expressions"
+  );
+    
+  $ar_db = array(
+    "Oracle RDBMS", 
+    "Oracle's SQL*Plus", 
+    "MySQL",
+    "Data Warehousing and Administration",    
+    "SQLite"
+  );
+
+  $ar_environments = array(
+    "Node.js",
+    "Rational Rose XDE"
+  );
+
+  $ar_frameworks = array(
+    "ASP.NET MVC4",
+    "Mocha"  
+  );
+
+  $ar_langs = array(
+    "C",
+    "C#",
+    "C++",
+    "COBOL",
+    "CSS",
+    "DB2", 
+    "HTML5",
+    "Java",
+    "JavaScript",
+    "RPG",
+    "XML",
+    "WSDL"
+  );
+
+  $ar_libraries = array(
+    "jQuery",
+    "Processing.js"
+  );
+
+  $ar_OS = array(
+    "Android",
+    "Fedora",
+    "IBM AS/400",
+    "Linux",
+    "MS Windows 8/7/XP", 
+    "OS X", 
+    "UNIX/Linux", 
+  );
+
+  $ar_platforms = array(
+    "Transifex"
+  );
+
+  $ar_soft = array(
+    "Apache HTTP server", 
+    "Apache Tomcat", 
+    "GlassFish", 
+    "Microsoft Windows Server 2008",
+    "MS Windows Server 2008"
+  );
+
+  $ar_techniques = array(
+    "Ajax",
+    "unit testing"
+  ); 
+
+  $ar_tools = array(
+    "jshint",
+    "Git",
+    "GruntJS", 
+  );
+
+  $ar_text_editors_ide = array(
+    "Eclipse",
+    "Komodo Edit",
+    "Libre Office",
+    "MS Access",
+    "MS Excel",
+    "MS Office",
+    "MS Word",
+    "MySQL Workbench",
+    "NetBeans",
+    "Notepad++",
+    "Rational Rose modeling tool (with UML)",
+    "Sublime Text",
+    "Visual Studio"
+  );
+
+  $ar_networking = array(
+    "SOAP",
+    "HTTP",
+    "FTP"
+  );
+?>
 <!-- <div class="bar">TECHNICAL SKILLS</div>
       <div id="table">
 
