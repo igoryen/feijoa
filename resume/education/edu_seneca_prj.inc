@@ -1,6 +1,6 @@
 <?php
 function phrase_watch(){
-  $x = "Developed PhraseWatch - an online application using Apache, "
+  $x = "Developed Tarboz - an online application using Apache, "
           . "MySQL, PHP and jQuery/HTML5 for storing winged phrases "
           . "in several languages";
   print "<li>" . $x . "</li>";
